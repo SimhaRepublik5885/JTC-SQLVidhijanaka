@@ -1,6 +1,6 @@
 ---
-title: JTC SQL Vidhijanaka
 layout: default
+title: JTC SQL Vidhijanaka
 ---
 
 # 🧠 JTC SQL Vidhijanaka
