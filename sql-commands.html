@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SQL Commands</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fdfdfd;
+      color: #333;
+      padding: 2rem;
+      line-height: 1.6;
+    }
+    h1 {
+      font-size: 28px;
+      color: #007acc;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+      font-size: 15px;
+    }
+    th {
+      background-color: #f0f8ff;
+    }
+    .note {
+      font-size: 14px;
+      color: #555;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>🛠️ SQL Commands</h1>
+
+  <table>
+    <tr><th>COMMAND</th><th>WHAT IT DOES</th></tr>
+    <tr><td>SELECT</td><td>Selects/extracts data from a database</td></tr>
+    <tr><td>UPDATE</td><td>Updates data in a database</td></tr>
+    <tr><td>DELETE</td><td>Deletes data from a database</td></tr>
+    <tr><td>INSERT INTO</td><td>Inserts new data into a database</td></tr>
+    <tr><td>CREATE DATABASE</td><td>Creates a new database</td></tr>
+    <tr><td>ALTER DATABASE</td><td>Modifies a database</td></tr>
+    <tr><td>CREATE TABLE</td><td>Creates a new table</td></tr>
+    <tr><td>ALTER TABLE</td><td>Modifies a table</td></tr>
+    <tr><td>DROP TABLE</td><td>Deletes a table</td></tr>
+    <tr><td>CREATE INDEX</td><td>Creates an index (search key)</td></tr>
+    <tr><td>DROP INDEX</td><td>Deletes an index</td></tr>
+  </table>
+
+  <div class="note">
+    <strong>Order of Sequence:</strong> SELECT, FROM, WHERE, GROUP BY, HAVING, ORDER BY, LIMIT/OFFSET.<br>
+    <strong>Order of Execution:</strong> FROM (or JOIN), WHERE, GROUP BY, HAVING, SELECT, (DISTINCT), ORDER BY, LIMIT/OFFSET.
+  </div>
+
+  <p><a href="index.html">← Back to Home</a></p>
+</body>
+</html>
